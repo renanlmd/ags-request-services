@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ body nav{
+     height: 100px;
+     padding-top: 20px;
+ }
+ body main{
+     width: 100%;
+     height: 770px;
+     margin-top: 20px;
+ }
+ 
+ body nav .img-nav{
+     width: 20%;
+     height: 80px;
+     float: left;
+     padding: 0;
+ }
+ body nav .img-nav .img-logo{
+    width: 110px;
+    height: 90px;
+    margin-left: 20px;
+ }
+ body nav .title-nav{
+     width: 80%;
+     height: 80px;
+     float: left;
+     
+ }
+ body nav .title-nav h3{
+     text-align: center;
+     margin: auto;
+     margin-top: 30px;
+ }
+
+ main .infor-funcionario{
+    width: 100%;
+    height: 350px;
+ }
+ main .infor-funcionario .title-funcionario{
+     width: 100%;
+     height: 30px;
+     text-align: center;
+ }
+ main .infor-funcionario .content-funcionario{
+     width: 100%;
+     height: 290px;
+ }
+ main .infor-funcionario .content-funcionario .nome{
+     width: 100%;
+     height: 20px;
+     margin-bottom: 8px;
+     padding: 5px;
+ }
+ main .infor-funcionario .content-funcionario .documentos{
+     width: 100%;
+     height: 50px;
+     border-top: 1px solid black;
+     padding: 5px;
+ }
+main .infor-funcionario .content-funcionario .documentos .data_nasc{
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .documentos .data_nasc .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .documentos .data_nasc .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-funcionario .content-funcionario .documentos .cpf{
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .documentos .cpf .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .documentos .cpf .value{
+    width: 100%;
+    margin-top: 0;
+}
+
+main .infor-funcionario .content-funcionario .documentos .rg{
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .documentos .rg .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .documentos .rg .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-funcionario .content-funcionario .documentos .telefone{
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .documentos .telefone .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .documentos .telefone .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-funcionario .content-funcionario .email_loja{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+    padding: 5px;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-email{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-email .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-email .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-loja{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-loja .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .email_loja .infor-loja .value{
+    width: 100%;
+    margin-top: 0;
+}
+
+main .infor-funcionario .content-funcionario .infor-cargo{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+    padding: 5px;
+    border-bottom: black 1px solid;
+
+}
+main .infor-funcionario .content-funcionario .infor-cargo .funcao{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .infor-cargo .funcao .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .infor-cargo .funcao .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-funcionario .content-funcionario .infor-cargo .gerente{
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+main .infor-funcionario .content-funcionario .infor-cargo .gerente .role{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+main .infor-funcionario .content-funcionario .infor-cargo .gerente .value{
+    width: 100%;
+    margin-top: 0;
+}
+main .infor-servico{
+    width: 100%;
+    height: 420px;
+ }
+main .infor-servico .title-servico{
+    width: 100%;
+    height: 40px;
+}
+main .infor-servico .title-servico h3{
+   
+    text-align: center;
+}
+main .infor-servico .content-servico{
+    width: 100%;
+    height: 330px;
+}
+main .infor-servico .content-servico .tipo-servico{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+main .infor-servico .content-servico .tipo-servico p{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+main .infor-servico .content-servico .tipo-execucao-servico{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+main .infor-servico .content-servico .tipo-execucao-servico p{
+    width: 100%;
+    margin-top: 10px;
+}
+main .infor-servico .content-servico .data-hora{
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+main .infor-servico .content-servico .data-hora .index{
+    width: 30%;
+    height: 80px;
+    border-right: 1px solid black;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+main .infor-servico .content-servico .data-hora .index h4{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 15px;
+}
+main .infor-servico .content-servico .data-hora .datas{
+    width: 35%;
+    height: 80px;
+    border-right: 1px solid black;
+    margin: 0;
+    float: left;
+}
+main .infor-servico .content-servico .data-hora .datas .data-inicio{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+}
+main .infor-servico .content-servico .data-hora .datas .data-termino{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border-top: 1px solid black;
+}
+main .infor-servico .content-servico .data-hora .horarios{
+    width: 34%;
+    height: 80px;
+    margin: 0;
+    float: left;
+}
+main .infor-servico .content-servico .data-hora .horarios .hora-inicio{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+}
+main .infor-servico .content-servico .data-hora .horarios .hora-termino{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border-top: 1px solid black;
+}
+main .infor-servico .content-servico .detalhes-servico{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+}
+main .infor-servico .content-servico .detalhes-servico p{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+main .infor-servico .content-servico .detalhes-servico p + p{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 17px;
+    text-align: justify;
+}
+body footer{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+}
+body footer .opcoes-autorizado{
+    width: 100%;
+    height: 40px;
+}
+body footer .opcoes-autorizado .part1{
+    width: 20%;
+    height: 30px;
+    float: left;
+}
+body footer .opcoes-autorizado .part2{
+    width: 25%;
+    height: 30px;
+    float: left;
+    padding: 0;
+}
+body footer .opcoes-autorizado .part2 .quadrado{
+    width: 40px;
+    height: 25px;
+    border: 2px solid black;
+}
+body footer .opcoes-autorizado .part2 p{
+    height: 25px;
+    width: 50px;
+    margin: 0;
+    margin-top: -25px;
+    margin-left: 48px;
+}
+body footer .opcoes-autorizado .part3{
+    width: 40%;
+    height: 30px;
+    margin: 0;
+    float: left;
+}
+body footer .opcoes-autorizado .part3 .quadrado{
+    width: 40px;
+    height: 25px;
+    border: 2px solid black;
+}
+body footer .opcoes-autorizado .part3 p{
+    height: 25px;
+    width: 200px;
+    margin: 0;
+    margin-top: -25px;
+    margin-left: 48px;
+}
+body footer .assinaturas{
+    width: 100%;
+    height: 40px;
+}
+body footer .assinaturas .assinatura1{
+    width: 50%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 11px;
+}
+body footer .assinaturas .assinatura1 hr{
+    margin-top: 18px;
+    width: 90%;
+}
+body footer .assinaturas .assinatura2{
+    width: 50%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 11px;
+}
+body footer .assinaturas .assinatura2 hr{
+    margin-top: 18px;
+    width: 90%;
+}

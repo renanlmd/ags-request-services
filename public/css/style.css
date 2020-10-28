@@ -1,0 +1,30 @@
+.tab-content{
+    padding-top: 20px;
+}
+.tab-pane-2{
+    height: auto;
+}
+
+main .container{
+    margin-top: 20px;
+}
+main .alert{
+    margin-top: 15px;
+}
+main{
+    margin-bottom: 40px;
+}
+.navbar{
+    height: 80px;
+    padding: 0 !important;
+}
+.navbar .navbar-brand{
+    padding: 0;
+}
+.navbar .img-logo{
+    padding: 0;
+    margin-top: 0;
+    width: 100px;
+    height: 80px;
+    margin-left: 40px;
+}
