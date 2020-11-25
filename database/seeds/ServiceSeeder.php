@@ -12,9 +12,9 @@ class ServiceSeeder extends Seeder
     public function run()
     {
         DB::table('services')->insert(['nome_servico' => 'Entrada de funcionário novo',]);
-        DB::table('services')->insert(['nome_servico' => 'Desmibilização de lojas',]);
+        DB::table('services')->insert(['nome_servico' => 'Desmobilização de lojas',]);
         DB::table('services')->insert(['nome_servico' => 'Montagem de quiosques',]);
-        DB::table('services')->insert(['nome_servico' => 'Desmibilização de quiosques',]);
+        DB::table('services')->insert(['nome_servico' => 'Desmobilização de quiosques',]);
         DB::table('services')->insert(['nome_servico' => 'Entrada de mercadorias da loja',]);
         DB::table('services')->insert(['nome_servico' => 'Saída de mercadorias da loja',]);
         DB::table('services')->insert(['nome_servico' => 'Instalação de material promocional',]);

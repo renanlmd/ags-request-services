@@ -1,3 +1,15 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .tab-content{
     padding-top: 20px;
 }
@@ -27,4 +39,14 @@ main{
     width: 100px;
     height: 80px;
     margin-left: 40px;
+}
+.card-center .img-logo{
+    padding: 0;
+    margin-top: 0;
+    width: 130px;
+    height: 110px;
+}
+.card-content{
+    margin-top: 120px;
+    padding: 30px;
 }
