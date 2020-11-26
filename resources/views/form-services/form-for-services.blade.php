@@ -25,10 +25,10 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="">Numero da Loja:</label>
-                    <input type="number" name="numero_loja" class="form-control {{ $errors->has('numero_loja') ? 'is-invalid' : '' }}" id=""  placeholder="Numero" value="{{ old('numero_loja') }}">
-                    @if ($errors->has('numero_loja'))
+                    <input type="number" name="numero_loja_for_acesso" class="form-control {{ $errors->has('numero_loja_for_acesso') ? 'is-invalid' : '' }}" id=""  placeholder="Numero" value="{{ old('numero_loja_for_acesso') }}">
+                    @if ($errors->has('numero_loja_for_acesso'))
                         <div class="invalid-feedback">
-                            {{ $errors->first('numero_loja') }}
+                            {{ $errors->first('numero_loja_for_acesso') }}
                         </div>
                     @endif
                 </div>

@@ -27,7 +27,7 @@
                     <span><strong>Nome da loja:</strong> {{ ucwords($request->nome_loja) }}</span>
                 </div>
                 <div class="numero-loja">
-                    <span><strong>Numero da loja:</strong> {{ ucwords($request->numero_loja) }}</span>
+                    <span><strong>Numero da loja:</strong> {{ ucwords($request->numero_loja_for_acesso) }}</span>
     
                 </div>
             </div>

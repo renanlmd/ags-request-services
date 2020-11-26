@@ -27,7 +27,7 @@ class SolicitacaoServicosController extends Controller
             
             $validator = Validator::make($request->all(), [
                 'nome_loja' => 'required',
-                'numero_loja' => 'required|numeric',
+                'numero_loja_for_acesso' => 'required|numeric',
                 'nome_lojista' => 'required',
                 'email_lojista' => 'required|email',
                 'tipo_servico' => 'required',
@@ -49,7 +49,7 @@ class SolicitacaoServicosController extends Controller
             }else{
                 Session::put([
                     'nome_loja' => $request->nome_loja,
-                    'numero_loja' => $request->numero_loja,
+                    'numero_loja_for_acesso' => $request->numero_loja_for_acesso,
                     'nome_lojista' => $request->nome_lojista,
                     'email_lojista' => $request->email_lojista,
                     'tipo_servico' => $request->tipo_servico,
@@ -79,7 +79,7 @@ class SolicitacaoServicosController extends Controller
                 'telefoneFuncionario' => 'required',
                 'email' => 'required|email',
                 'lojaFuncionario' => 'required',
-                'numero_loja' => 'required|numeric',
+                'numero_loja_for_cracha' => 'required|numeric',
                 'funcao' => 'required',
                 'gerenteResponsavel' => 'required',
             ]);
@@ -99,7 +99,7 @@ class SolicitacaoServicosController extends Controller
                     'telefoneFuncionario' => $request->telefoneFuncionario,
                     'email' => $request->email,
                     'lojaFuncionario' => $request->lojaFuncionario,
-                    'numero_loja' => $request->numero_loja,
+                    'numero_loja_for_cracha' => $request->numero_loja_for_cracha,
                     'funcao' => $request->funcao,
                     'gerenteResponsavel' => $request->gerenteResponsavel,
                     'tipo_solicitacao' => $request->tipo_solicitacao
@@ -122,7 +122,7 @@ class SolicitacaoServicosController extends Controller
         if(session('tipo_solicitacao') == 'acesso'){
             $data = [
                 'nome_loja' => session('nome_loja'),
-                'numero_loja' => session('numero_loja'),
+                'numero_loja_for_acesso' => session('numero_loja_for_acesso'),
                 'nome_lojista' => session('nome_lojista'),
                 'email_lojista' => session('email_lojista'),
                 'tipo_servico' => session('tipo_servico'),
@@ -150,7 +150,7 @@ class SolicitacaoServicosController extends Controller
                 'telefoneFuncionario' => session('telefoneFuncionario'),
                 'email' => session('email'),
                 'lojaFuncionario' => session('lojaFuncionario'),
-                'numero_loja' => session('numero_loja'),
+                'numero_loja_for_cracha' => session('numero_loja_for_cracha'),
                 'funcao' => session('funcao'),
                 'gerenteResponsavel' => session('gerenteResponsavel'),
                 'tipo_solicitacao' => session('tipo_solicitacao')

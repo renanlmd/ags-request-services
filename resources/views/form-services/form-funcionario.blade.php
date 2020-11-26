@@ -40,13 +40,13 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal serviços</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Solicitação de Acesso</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-            @if ($errors->any())
+            @if (session('error_acesso'))
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     Por favor, verifique todos os campos do formulário!
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -70,12 +70,20 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal crachá</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Solicitação de Novo Crachá</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+            @if (session('error_cracha'))
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                  Por favor, verifique todos os campos do formulário!
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+            @endif
             <form action="{{route('view_pdf')}}" method="post">
                 @csrf
                 @include('form-services.form-for-cracha')

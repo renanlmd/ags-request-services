@@ -73,10 +73,10 @@
     </div>
     <div class="form-group col-md-4">
         <label for="">Numero da Loja:</label>
-        <input type="number" name="numero_loja" class="form-control {{ $errors->has('numero_loja') == true ? 'is-invalid' : ''}}" placeholder="Loja" value="{{ old('numero_loja') }}">
-        @if ($errors->has('numero_loja'))
+        <input type="number" name="numero_loja_for_cracha" class="form-control {{ $errors->has('numero_loja_for_cracha') == true ? 'is-invalid' : ''}}" placeholder="Loja" value="{{ old('numero_loja_for_cracha') }}">
+        @if ($errors->has('numero_loja_for_cracha'))
             <div class="invalid-feedback">
-                {{ $errors->first('numero_loja') }}
+                {{ $errors->first('numero_loja_for_cracha') }}
             </div>
         @endif
     </div>
